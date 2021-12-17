@@ -1,0 +1,467 @@
+*{
+    padding: 10;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+/* .header {
+        text-decoration: none;
+        padding: 20px;
+        background: #ff4800;
+        color: white;
+        font-size: 15px;
+        line-height:1;
+        display: flex;
+        padding-top: 20px;
+}
+
+/* .header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .header .column{
+        float: left;
+        width: 33.33%;
+        height: 60px;
+}
+
+.header a, a:hover, a:focus, a:active{
+        text-decoration: none;
+            color: inherit;
+} 
+        
+
+.header-email{
+    text-align: left;
+}
+
+.header-phone-no{
+    text-align: center;
+    margin-left:48px
+}
+
+.header-phone-no p{
+    margin:0
+}
+
+.header-donate-now{
+    text-align: right;
+}
+
+.header-donate-now a{
+    /* display:inline-block; */
+    /* padding:20px 40px;
+    font-size:14px;
+    font-weight:500;
+    line-height:1;
+    color:#fff;
+    text-decoration:navajowhite;
+    background:black
+}
+    
+    
+.single-line{
+    text-decoration: none;
+    padding: 10px;
+    background: #ff4800;
+    color: white;
+    font-size: 15px;
+    line-height:1;
+    font-style: italic;
+}   */
+
+
+
+
+  
+
+  
+/*********************************Navigation Bar*********************************/
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+    position: initial;                  
+    width: 100%;                 
+    z-index: 10;    
+    display: flex;  
+    position: absolute;     
+    top: 0px;      
+  }
+  
+  /* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+.company_name a h1{
+    text-decoration: none;
+    color: white;
+    margin: 15px 60px;
+    color: white;
+}
+  
+.menu {
+    flex: 1;
+    text-align: right;
+    margin-top: 28px;
+    margin-right: 100px;
+    background-color: transparent;
+}
+  
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 17px;
+    /* transition: 0.5s; */
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+}
+
+.menu a:hover{
+    color: pink;
+}
+
+
+/**************  background main image  ***************/
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1578496781379-7dcfb995293d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FuY2VyfHx8fHx8MTYzOTc1MzUxMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    /* z-index: -200;  */
+    color: white;
+}
+.main .headinginfo {
+    align-items: center;
+    max-width: 1300px ;    
+    margin: 0 auto;
+    padding-top: 10%;
+
+}
+
+.headinginfo .text{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6));
+    padding: 20px;
+    width: 35%;
+}
+.headinginfo .subtext{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6));
+    padding: 20px;
+    width: 35%;
+}
+
+
+.headinginfo h3 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+.headinginfo h3 span {
+    float: right;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.headinginfo h2 {
+    font-size: 40px;
+}
+.headinginfo h1 span{
+    font-size: 110px;
+    line-height: 120px;
+    color: green;
+    letter-spacing: 10px;
+}
+.headinginfo a {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.headinginfo a button{
+    padding: 8px 80px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    background: transparent;
+    background-size: 200%;
+    background-position: left;
+    transition: .3s;
+    border: 2px solid white;
+    color: white;
+    margin: 25px 0 -50%;
+    width: 100%;
+}
+.headinginfo a button:hover {
+    background-color: peru;
+    color: white;
+}
+
+/* *******************************   About us  **************************************** */
+.about-us{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+/* About image */
+.about-us .imgcontanner{
+    width: 50%;
+    position: relative;
+    background-color: blue;
+    background: url('https://www.cancer.gov/sites/g/files/xnrzdm211/files/styles/cgov_article/public/cgov_image/media_image/2020-09/mother-of-african-descent-cuddles-her-child-who-has-cancer.jpg?h=5537fd6a&itok=ahYgaZxU');
+    
+    
+}
+.about-us .imgcontanner .aboutimg {
+    position: absolute; 
+    background: url('https://images.unsplash.com/photo-1630959302878-a30de73cdbb5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FuY2VyfHx8fHx8MTYzOTc1MzM4MQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 100vd;
+    top: 80px;
+    left: 32%;
+}
+
+/* about content */
+.about-us .aboutcontent {
+    width: 50%;
+    padding: 80px 7% 80px 7%;
+    color: white;
+    background-color: brown;
+}
+.aboutcontent h5 {
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutcontent h1 {
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.aboutcontent p {
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+/* donate button  */
+.aboutcontent a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 40px;
+    background: transparent;
+    /* background-size: 100%;
+    background-position: center; */
+    /* transition: .3s; */
+    border: 3px solid white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+.aboutcontent a:hover {
+    background:peru;
+}
+
+
+.gap {
+    padding: 15px;
+}
+
+
+/* ************************************  projects  ************************** */
+.projects{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #B8860B;
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+.projects h1 {
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+/* details projects */
+.projects .details {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    padding-top: 20px;
+}
+.details .images {
+    padding: 40px;
+}
+.details .images .pic1{
+    padding: 10px;
+    /* width:45px; */
+    margin: 0 auto;
+    /* background-color: rgb(1, 161, 1); */
+    /* border-radius: 500px; */
+    color: white;
+    font-size: 30px;
+}
+.details .images #head {
+    padding: 0px 0 10px;
+    color: black;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.projects .images #head1 {
+    padding: 0px 0 10px;
+    color: black;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+/* ***************************************  Counter ************************** */
+.contercontent {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color:rgb(1, 99, 1);
+    padding: 0px;
+}
+.counterbox {
+    width: 100%;
+    height: 370px;
+}
+.contercontent .one {
+    background-color: rgb(1, 99, 1);
+}
+.counterbox .information {
+    width: 80%;
+    height: 100%;
+    margin: 30px;
+    padding-top: 10px;
+    /* display: flex; */
+    align-items: center;
+    padding-left: 35px;
+}
+.information .number p {
+    font-size: 50px;
+    color: rgb(1, 161, 1);
+    padding-right: 10px;
+}
+.information .text p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.counterbox .information .logo{
+    padding: 20px;
+}
+
+/************************************** Contact **********************************************/
+.contact {
+    width: 100%;
+    /* box-sizing: border-box; */
+    /* background-color: transparent; */
+    padding: 125px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.418)) , url('https://images.unsplash.com/photo-1598884143267-586d90a32141?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FuY2VyfHx8fHx8MTYzOTc1MzYwNA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
+}
+.contact h1 {
+    color: white;
+    text-align: center;
+}
+.contactcontanner {
+    width: 70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.contactcontanner .contanner {
+    width: 40%;
+}
+.contactcontanner .contanner .heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    margin-bottom: 8px;
+    /* box-shadow: 0px 4px 8px rgba(0,0,0,.07); */
+}
+.heading .icon {
+    padding: 0 0 0 20px;
+    font-size: 20px;
+    color: yellow;
+}
+.heading .info {
+    width: 70%;
+    margin: 25px auto;
+    color: white;
+}
+.heading .info #contactinfo {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+}
+
+/* message form */
+.messageform {
+    width: 70%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0,0,0,.07);
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.messageform .form {
+    width: 80%;
+    margin: 50px auto;
+}
+.messageform input , .messageform #inputbox {
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid white;
+    outline: none;
+    background-color: transparent;
+}
+.messageform button {
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    background: transparent;
+    background-size: 200%;
+    background-position: left;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: .3s;
+}
+.messageform button:hover {
+    background-color: peru;
+}
+
+
+footer {
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: red;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+}
+footer p {
+    font-size: 18px;
+}
