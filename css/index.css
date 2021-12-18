@@ -5,80 +5,6 @@
 }
 
 
-/* html {
-    scroll-behavior: smooth;
-} */
-
-/* .header {
-        text-decoration: none;
-        padding: 20px;
-        background: #ff4800;
-        color: white;
-        font-size: 15px;
-        line-height:1;
-        display: flex;
-        padding-top: 20px;
-}
-
-/* .header img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-/* .header .column{
-        float: left;
-        width: 33.33%;
-        height: 60px;
-}
-
-.header a, a:hover, a:focus, a:active{
-        text-decoration: none;
-            color: inherit;
-} 
-        
-
-.header-email{
-    text-align: left;
-}
-
-.header-phone-no{
-    text-align: center;
-    margin-left:48px
-}
-
-.header-phone-no p{
-    margin:0
-}
-
-.header-donate-now{
-    text-align: right;
-}
-
-.header-donate-now a{
-    /* display:inline-block; */
-    /* padding:20px 40px;
-    font-size:14px;
-    font-weight:500;
-    line-height:1;
-    color:#fff;
-    text-decoration:navajowhite;
-    background:black
-}
-    
-    
-.single-line{
-    text-decoration: none;
-    padding: 10px;
-    background: #ff4800;
-    color: white;
-    font-size: 15px;
-    line-height:1;
-    font-style: italic;
-}   */
-
-
-
 
   
 
@@ -126,7 +52,6 @@
     color: white;
     margin-left: 40px;
     font-size: 17px;
-    /* transition: 0.5s; */
     font-weight: 500;
     position: relative;
     display: inline-block;
@@ -142,7 +67,6 @@
     width: 100%;
     height: 100vh;
     background: url('https://images.unsplash.com/photo-1578496781379-7dcfb995293d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FuY2VyfHx8fHx8MTYzOTc1MzUxMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
-    /* z-index: -200;  */
     color: white;
 }
 .main .headinginfo {
@@ -287,7 +211,6 @@
     padding: 40px 0px;
     background-color: #B8860B;
     text-align: center;
-    /* box-sizing: border-box; */
 }
 
 .projects h1 {
@@ -308,10 +231,7 @@
 }
 .details .images .pic1{
     padding: 10px;
-    /* width:45px; */
     margin: 0 auto;
-    /* background-color: rgb(1, 161, 1); */
-    /* border-radius: 500px; */
     color: white;
     font-size: 30px;
 }
@@ -328,6 +248,30 @@
     font-weight: 600;
     font-weight: bold;
 }
+
+.projects a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 40px;
+    background: transparent;
+    /* background-size: 100%;
+    background-position: center; */
+    /* transition: .3s; */
+    border: 3px solid white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+.projects a:hover {
+    background:brown;
+}
+
+
+.single-line2 {
+    padding: 10px;
+}
+
 
 /* ***************************************  Counter ************************** */
 .contercontent {
@@ -349,7 +293,6 @@
     height: 100%;
     margin: 30px;
     padding-top: 10px;
-    /* display: flex; */
     align-items: center;
     padding-left: 35px;
 }
@@ -368,11 +311,13 @@
     padding: 20px;
 }
 
+
+.single-line3{
+    padding: 10px;
+}
 /************************************** Contact **********************************************/
 .contact {
     width: 100%;
-    /* box-sizing: border-box; */
-    /* background-color: transparent; */
     padding: 125px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.418)) , url('https://images.unsplash.com/photo-1598884143267-586d90a32141?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FuY2VyfHx8fHx8MTYzOTc1MzYwNA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600');
 }
@@ -396,7 +341,6 @@
     align-items: center;
     border: 2px solid white;
     margin-bottom: 8px;
-    /* box-shadow: 0px 4px 8px rgba(0,0,0,.07); */
 }
 .heading .icon {
     padding: 0 0 0 20px;
